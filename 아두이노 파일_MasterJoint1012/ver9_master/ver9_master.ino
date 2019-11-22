@@ -126,6 +126,7 @@ void setup() {
   Serial.println("[keysize : 24 => secret key length : 192bits]");
   Serial.println("[keysize : 32 => secret key length : 256bits]\n");
   Serial.println("[blocksize : n => plain length : n*16 bytes]");
+  Serial.println("[blocksize : 16, 32, 64]");
 }
 
 void loop() {
